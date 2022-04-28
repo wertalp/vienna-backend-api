@@ -22,4 +22,11 @@ public class UserController {
     public String postFoos() {
         return "Post some Foos";
     }
+    @RequestMapping(value = "/user/", method = RequestMethod.GET)
+    @ResponseBody
+    public String getUser() {
+        return "Here is your new User";
+    }
+
+
 }
