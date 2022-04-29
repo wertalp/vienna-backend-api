@@ -1,6 +1,10 @@
 package ch.wertal.viennabackendapi.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="COMPANY")
@@ -11,6 +15,10 @@ public class Company {
 
         @Column(name="COMPANY_NAME", length=50, nullable=false, unique=false)
         private String name;
+
+        @JsonIgnore
+        @OneToMany
+        private List<Event> events = new ArrayList<Event>();
 
         @Column
         private String firstName;
