@@ -11,13 +11,13 @@ public class TestData {
     private static  Client client = null ;
 
     public static List<Client> getTestClients() {
-        client = new Client( "WSS-Company-AG","Patrick", "Wertal","patrick.wertal@gmail.com","m002345");
-        Client client1 = new Client( "OMM-Company-AG","Martina", "Onlasser","patrick.wertal@gmail.com","m002345");
-        Client client2 = new Client( "HHG-Company-AG","Helge", "Folkmann","patrick.wertal@gmail.com","m002345");
-        Client client3 = new Client( "CGG-Company-AG","Martina", "Groves","patrick.wertal@gmail.com","m002345");
-        Client client4 = new Client( "RSS-Company-AG","Tanja", "Schmidt","patrick.wertal@gmail.com","m002345");
-        Client client5 = new Client( "FFW-Company-AG","Florina", "Wertal","patrick.wertal@gmail.com","m002345");
-        Client client6 = new Client( "SBF-Company-AG","Steffi", "Folkmann","patrick.wertal@gmail.com","m002345");
+        client = new Client(1L,"WSS-Company-AG","Patrick", "Wertal","patrick.wertal@gmail.com","m002345");
+        Client client1 = new Client( 2L,"OMM-Company-AG","Martina", "Onlasser","patrick.wertal@gmail.com","m002345");
+        Client client2 = new Client( 3L,"HHG-Company-AG","Helge", "Folkmann","patrick.wertal@gmail.com","m002345");
+        Client client3 = new Client( 4L,"CGG-Company-AG","Martina", "Groves","patrick.wertal@gmail.com","m002345");
+        Client client4 = new Client(5L,"RSS-Company-AG","Tanja", "Schmidt","patrick.wertal@gmail.com","m002345");
+        Client client5 = new Client( 6L,"FFW-Company-AG","Florina", "Wertal","patrick.wertal@gmail.com","m002345");
+        Client client6 = new Client( 7L,"SBF-Company-AG","Steffi", "Folkmann","patrick.wertal@gmail.com","m002345");
 
         clientList.add(client) ;
         clientList.add(client1) ;

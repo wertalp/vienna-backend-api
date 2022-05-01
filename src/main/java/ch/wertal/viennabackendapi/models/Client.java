@@ -36,7 +36,7 @@ public class Client {
     private String password;
 
 
-    public Client(String name, String firstName, String lastName, String email, String password) {
+    public Client( Long id , String name, String firstName, String lastName, String email, String password) {
         this.name      = name      ;
         this.firstName = firstName ;
         this.lastName  = lastName  ;
